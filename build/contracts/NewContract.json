@@ -1,0 +1,174 @@
+{
+  "abi": [],
+  "allSourcePaths": {
+    "2": "contracts/core/NewContract.sol"
+  },
+  "ast": {
+    "absolutePath": "contracts/core/NewContract.sol",
+    "exportedSymbols": {
+      "Context": [
+        133
+      ],
+      "NewContract": [
+        4
+      ],
+      "Ownable": [
+        109
+      ]
+    },
+    "id": 5,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:24:2"
+      },
+      {
+        "absolutePath": "interfaces/INewContract.sol",
+        "file": "../../interfaces/INewContract.sol",
+        "id": 2,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 5,
+        "sourceUnit": 112,
+        "src": "58:43:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "C:/Users/ABHI/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.4.1/contracts/access/Ownable.sol",
+        "file": "@openzeppelin/contracts/access/Ownable.sol",
+        "id": 3,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 5,
+        "sourceUnit": 110,
+        "src": "103:52:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 4,
+        "linearizedBaseContracts": [
+          4
+        ],
+        "name": "NewContract",
+        "nameLocation": "165:11:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 5,
+        "src": "156:24:2"
+      }
+    ],
+    "src": "32:148:2"
+  },
+  "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220c28241eed8b97adebb80ab5d8c75c4bef85f7cbd49c3f2400d8ef328f2ae4c7764736f6c63430008030033",
+  "bytecodeSha1": "73df0a6f5d0123eb2b2db0faf62b602aa77c123a",
+  "compiler": {
+    "evm_version": "istanbul",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "version": "0.8.3+commit.8d00100c"
+  },
+  "contractName": "NewContract",
+  "coverageMap": {
+    "branches": {
+      "2": {}
+    },
+    "statements": {
+      "2": {}
+    }
+  },
+  "dependencies": [],
+  "deployedBytecode": "6080604052600080fdfea2646970667358221220c28241eed8b97adebb80ab5d8c75c4bef85f7cbd49c3f2400d8ef328f2ae4c7764736f6c63430008030033",
+  "deployedSourceMap": "156:24:2:-:0;;;;;",
+  "language": "Solidity",
+  "natspec": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "offset": [
+    156,
+    180
+  ],
+  "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC2 DUP3 COINBASE 0xEE 0xD8 0xB9 PUSH27 0xDEBB80AB5D8C75C4BEF85F7CBD49C3F2400D8EF328F2AE4C776473 PUSH16 0x6C634300080300330000000000000000 ",
+  "pcMap": {
+    "0": {
+      "offset": [
+        156,
+        180
+      ],
+      "op": "PUSH1",
+      "path": "2",
+      "value": "0x80"
+    },
+    "2": {
+      "fn": null,
+      "offset": [
+        156,
+        180
+      ],
+      "op": "PUSH1",
+      "path": "2",
+      "value": "0x40"
+    },
+    "4": {
+      "fn": null,
+      "offset": [
+        156,
+        180
+      ],
+      "op": "MSTORE",
+      "path": "2"
+    },
+    "5": {
+      "fn": null,
+      "offset": [
+        156,
+        180
+      ],
+      "op": "PUSH1",
+      "path": "2",
+      "value": "0x0"
+    },
+    "7": {
+      "fn": null,
+      "offset": [
+        156,
+        180
+      ],
+      "op": "DUP1",
+      "path": "2"
+    },
+    "8": {
+      "fn": null,
+      "offset": [
+        156,
+        180
+      ],
+      "op": "REVERT",
+      "path": "2"
+    }
+  },
+  "sha1": "ecb8cd1188f52f2170946c8016bc8cc2d0880290",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.8.0;\n\nimport \"../../interfaces/INewContract.sol\";\n\nimport \"@openzeppelin/contracts/access/Ownable.sol\";\ncontract NewContract{\n\n}",
+  "sourceMap": "156:24:2:-:0;;;;;;;;;;;;;;;;;;;",
+  "sourcePath": "contracts/core/NewContract.sol",
+  "type": "contract"
+}
